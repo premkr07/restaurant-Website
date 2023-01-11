@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+</head>
+<style>
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<body>
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>We are all very different. We were born in different cities, at different times, we</p>
+        <p>love different music, food, movies. But we have something that unites us all. It is</p>
+        <p>our website. We are its heart. We are not just a team, we are a family </p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="Prem.jpg" alt="PREM" style="width:100%">
+            <div class="container">
+              <h2>PREM KUMAR</h2>
+              <p class="title">CEO & Founder</p>
+              <p>REG ID-12207167.</p>
+              <p>premkr266862@gmail.com</p>
+              <p><a href="" button class="button">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Dibya.jpg" alt="DIVYA" style="width:100%">
+            <div class="container">
+              <h2>DIVYA</h2>
+              <p class="title">CO FOUNDER</p>
+              <p>REG ID-12224036</p>
+              <p>dibyajyotybeura19@gmail.com</p>
+              <p><a href="" button class="button">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Deepak.jpg" alt="DEEPAK" style="width:100%">
+            <div class="container">
+              <h2>DEEPAK</h2>
+              <p class="title">Contain Writer</p>
+              <p>REG ID-12224098</p>
+              <p>deepakyadav97872@gmail.com</p>
+              <p><a href="" button class="button">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
